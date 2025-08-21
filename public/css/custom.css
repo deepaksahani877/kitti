@@ -1,0 +1,55 @@
+/* Override bg-indigo-700 everywhere */
+.bg-indigo-700 {
+    background-color: goldenrod !important;
+}
+
+/* Override text-indigo-700 everywhere */
+.text-indigo-700 {
+    color: goldenrod !important;
+}
+
+/* You can also define your own custom utility */
+.bg-golden {
+    background-color: goldenrod !important;
+}
+
+.text-golden {
+    color: goldenrod !important;
+}
+
+
+/* Override bg-indigo-700 everywhere */
+.bg-indigo-600 {
+    background-color: goldenrod !important;
+}
+
+/* Override text-indigo-700 everywhere */
+.text-indigo-600 {
+    color: goldenrod !important;
+}
+
+
+/* Override bg-indigo-700 everywhere */
+.bg-indigo-500 {
+    background-color: goldenrod !important;
+}
+
+
+
+/* Override text-indigo-700 everywhere */
+.text-indigo-500 {
+    color: goldenrod !important;
+}
+
+
+/* Override hover:text-indigo-600 */
+.hover\:text-indigo-600:hover {
+    color: #FFD700 !important;   /* Golden color */
+    opacity: 0.85;              /* Slight transparent tint */
+    transition: color 0.2s ease-in-out;
+}
+
+/* If you want button background hover replacement */
+.hover\:bg-indigo-600:hover {
+    background-color: rgba(255, 215, 0, 0.9) !important; /* golden with tint */
+}
